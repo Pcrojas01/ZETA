@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Notas - ZETA</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Gestión de Notas</h1>
+    <a href="/dashboard_admin">Volver al Dashboard</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Registrar / Editar Nota</h2>
+      <form id="gradeForm">
+        <input type="hidden" id="gradeId" name="gradeId">
+        <div>
+          <label for="studentId">Estudiante:</label>
+          <select id="studentId" name="studentId" required>
+            <option value="">Seleccione un estudiante</option>
+          </select>
+        </div>
+        <div>
+          <label for="subjectId">Materia:</label>
+          <select id="subjectId" name="subjectId" required>
+            <option value="">Seleccione una materia</option>
+          </select>
+        </div>
+        <div>
+          <label for="period">Periodo:</label>
+          <input type="text" id="period" name="period" placeholder="Ej: 2024-1" required>
+        </div>
+        <div>
+          <label for="score">Calificación:</label>
+          <input type="number" id="score" name="score" min="0" max="100" required>
+        </div>
+        <div>
+          <label for="comment">Comentario:</label>
+          <input type="text" id="comment" name="comment">
+        </div>
+        <button type="submit">Guardar</button>
+        <button type="button" id="cancelEdit" style="display:none;">Cancelar</button>
+      </form>
+      <div id="formMessage"></div>
+    </section>
+
+    <section>
+      <h2>Notas Registradas</h2>
+      <table border="1" width="100%">
+        <thead>
+          <tr>
+            <th>Estudiante</th>
+            <th>Materia</th>
+            <th>Periodo</th>
+            <th>Calificación</th>
+            <th>Comentario</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="gradesTableBody">
+          <!-- Notas aquí -->
+        </tbody>
+      </table>
+      <div id="tableMessage"></div>
+    </section>
+  </main>
+
+  <script src="/public/js/grades.js"></script>
+</body>
+</html> 

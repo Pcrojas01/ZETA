@@ -1,0 +1,48 @@
+<!-- views/dashboard-admin.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Administrador - ZETA</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Panel de Administración - ZETA</h1>
+    <div class="user-info">
+      <span>Bienvenido, <span id="userName">Usuario</span></span>
+      <button id="logoutBtn">Cerrar sesión</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="resumen">
+      <h2>Resumen General</h2>
+      <ul>
+        <li>Usuarios totales: <span id="total-users"></span></li>
+        <li>Docentes: <span id="total-teachers"></span></li>
+        <li>Estudiantes: <span id="total-students"></span></li>
+        <li>Materias: <span id="total-subjects"></span></li>
+        <li>Comentarios: <span id="total-comments"></span></li>
+      </ul>
+    </section>
+
+    <section id="accesos">
+      <h2>Gestiones</h2>
+      <ul>
+        <li data-role="ADMIN"><a href="/teachers.html">Gestionar Docentes</a></li>
+        <li data-role="ADMIN"><a href="/students.html">Gestionar Estudiantes</a></li>
+        <li data-role="ADMIN"><a href="/subjects.html">Gestionar Materias</a></li>
+        <li data-role="DOCENTE"><a href="/grades.html">Gestionar Notas</a></li>
+        <li data-role="ADMIN"><a href="/comments.html">Ver Comentarios</a></li>
+        <li data-role="ADMIN"><a href="/periods.html">Periodos Académicos</a></li>
+        <li data-role="ADMIN"><a href="/reports.html">Generar Reportes</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="/public/js/main.js"></script>
+  <script src="/public/js/dashboard_admin.js"></script>
+</body>
+</html>

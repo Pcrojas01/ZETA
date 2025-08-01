@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Matemáticas",
+    "code": "MAT101",
+    "teacherId": "docente1@gmail.com"
+  },
+  {
+    "name": "Física",
+    "code": "FIS101",
+    "teacherId": "docente2@gmail.com"
+  },
+  {
+    "name": "Química",
+    "code": "QUI101",
+    "teacherId": "docente3@gmail.com"
+  },
+  {
+    "name": "Historia",
+    "code": "HIS101",
+    "teacherId": "docente4@gmail.com"
+  },
+  {
+    "name": "Literatura",
+    "code": "LIT101",
+    "teacherId": "docente5@gmail.com"
+  },
+  {
+    "name": "Biología",
+    "code": "BIO101",
+    "teacherId": "docente6@gmail.com"
+  },
+  {
+    "name": "Geografía",
+    "code": "GEO101",
+    "teacherId": "docente7@gmail.com"
+  },
+  {
+    "name": "Inglés",
+    "code": "ING101",
+    "teacherId": "docente8@gmail.com"
+  },
+  {
+    "name": "Informática",
+    "code": "INF101",
+    "teacherId": "docente9@gmail.com"
+  },
+  {
+    "name": "Filosofía",
+    "code": "FIL101",
+    "teacherId": "docente10@gmail.com"
+  }
+] 

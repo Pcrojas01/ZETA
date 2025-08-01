@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Comentarios - ZETA</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Gestión de Comentarios</h1>
+    <a href="/dashboard_admin">Volver al Dashboard</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Registrar / Editar Comentario</h2>
+      <form id="commentForm">
+        <input type="hidden" id="commentId" name="commentId">
+        <div>
+          <label for="userId">Usuario:</label>
+          <select id="userId" name="userId" required>
+            <option value="">Seleccione un usuario</option>
+          </select>
+        </div>
+        <div>
+          <label for="subjectId">Materia:</label>
+          <select id="subjectId" name="subjectId" required>
+            <option value="">Seleccione una materia</option>
+          </select>
+        </div>
+        <div>
+          <label for="text">Comentario:</label>
+          <input type="text" id="text" name="text" required>
+        </div>
+        <button type="submit">Guardar</button>
+        <button type="button" id="cancelEdit" style="display:none;">Cancelar</button>
+      </form>
+      <div id="formMessage"></div>
+    </section>
+
+    <section>
+      <h2>Comentarios Registrados</h2>
+      <table border="1" width="100%">
+        <thead>
+          <tr>
+            <th>Usuario</th>
+            <th>Materia</th>
+            <th>Comentario</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="commentsTableBody">
+          <!-- Comentarios aquí -->
+        </tbody>
+      </table>
+      <div id="tableMessage"></div>
+    </section>
+  </main>
+
+  <script src="/public/js/comments.js"></script>
+</body>
+</html> 

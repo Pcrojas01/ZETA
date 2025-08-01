@@ -1,0 +1,52 @@
+[
+  {
+    "userId": "estudiante1@gmail.com",
+    "subjectId": "MAT101",
+    "text": "La clase de matemáticas es muy interesante, el profesor explica muy bien"
+  },
+  {
+    "userId": "docente1@gmail.com",
+    "subjectId": "MAT101",
+    "text": "Los estudiantes están progresando muy bien en álgebra"
+  },
+  {
+    "userId": "estudiante2@gmail.com",
+    "subjectId": "FIS101",
+    "text": "Los experimentos de física son fascinantes"
+  },
+  {
+    "userId": "docente2@gmail.com",
+    "subjectId": "FIS101",
+    "text": "Excelente participación en el laboratorio de mecánica"
+  },
+  {
+    "userId": "estudiante3@gmail.com",
+    "subjectId": "QUI101",
+    "text": "La química es más práctica de lo que pensaba"
+  },
+  {
+    "userId": "docente3@gmail.com",
+    "subjectId": "QUI101",
+    "text": "Los estudiantes muestran gran interés en los experimentos"
+  },
+  {
+    "userId": "estudiante4@gmail.com",
+    "subjectId": "HIS101",
+    "text": "La historia es muy entretenida con este profesor"
+  },
+  {
+    "userId": "docente4@gmail.com",
+    "subjectId": "HIS101",
+    "text": "Excelentes debates sobre la historia contemporánea"
+  },
+  {
+    "userId": "estudiante5@gmail.com",
+    "subjectId": "INF101",
+    "text": "La programación es mi materia favorita"
+  },
+  {
+    "userId": "docente9@gmail.com",
+    "subjectId": "INF101",
+    "text": "Los proyectos de programación están muy bien desarrollados"
+  }
+] 

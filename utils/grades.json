@@ -1,0 +1,72 @@
+[
+  {
+    "studentId": "estudiante1@gmail.com",
+    "subjectId": "MAT101",
+    "period": "Primer Semestre 2024",
+    "score": 85,
+    "comment": "Excelente rendimiento en álgebra"
+  },
+  {
+    "studentId": "estudiante1@gmail.com",
+    "subjectId": "FIS101",
+    "period": "Primer Semestre 2024",
+    "score": 78,
+    "comment": "Buen trabajo en mecánica"
+  },
+  {
+    "studentId": "estudiante2@gmail.com",
+    "subjectId": "MAT101",
+    "period": "Primer Semestre 2024",
+    "score": 92,
+    "comment": "Destacado en cálculo"
+  },
+  {
+    "studentId": "estudiante2@gmail.com",
+    "subjectId": "HIS101",
+    "period": "Primer Semestre 2024",
+    "score": 88,
+    "comment": "Muy buena participación"
+  },
+  {
+    "studentId": "estudiante3@gmail.com",
+    "subjectId": "QUI101",
+    "period": "Primer Semestre 2024",
+    "score": 95,
+    "comment": "Excelente en laboratorio"
+  },
+  {
+    "studentId": "estudiante3@gmail.com",
+    "subjectId": "LIT101",
+    "period": "Primer Semestre 2024",
+    "score": 82,
+    "comment": "Buena comprensión lectora"
+  },
+  {
+    "studentId": "estudiante4@gmail.com",
+    "subjectId": "BIO101",
+    "period": "Primer Semestre 2024",
+    "score": 90,
+    "comment": "Excelente en prácticas"
+  },
+  {
+    "studentId": "estudiante4@gmail.com",
+    "subjectId": "ING101",
+    "period": "Primer Semestre 2024",
+    "score": 87,
+    "comment": "Muy buena pronunciación"
+  },
+  {
+    "studentId": "estudiante5@gmail.com",
+    "subjectId": "INF101",
+    "period": "Primer Semestre 2024",
+    "score": 94,
+    "comment": "Excelente en programación"
+  },
+  {
+    "studentId": "estudiante5@gmail.com",
+    "subjectId": "GEO101",
+    "period": "Primer Semestre 2024",
+    "score": 79,
+    "comment": "Buen trabajo en mapas"
+  }
+] 

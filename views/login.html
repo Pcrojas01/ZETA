@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar Sesión - ZETA</title>
+  <link rel="stylesheet" href="/public/css/style.css"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="usuario@correo.com" required />
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" placeholder="••••••••" required />
+      </div>
+      <button type="submit">Ingresar</button>
+    </form>
+    <div class="error-message" id="errorMessage"></div>
+  </div>
+
+  <script>
+    const loginForm = document.getElementById('loginForm');
+    const errorMessage = document.getElementById('errorMessage');
+
+    loginForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const email = document.getElementById('email').value.trim();
+      const password = document.getElementById('password').value.trim();
+
+      try {
+        const res = await fetch('/api/auth/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ email, password }),
+        });
+
+        const contentType = res.headers.get("content-type");
+
+        if (!contentType || !contentType.includes("application/json")) {
+          throw new Error("La respuesta del servidor no es JSON válida");
+        }
+
+        const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data.message || 'Credenciales incorrectas');
+        }
+
+        // Redirección según el rol
+        switch (data.user.role) {
+  case 'ADMIN':
+    window.location.href = '/dashboard_admin';
+    break;
+  case 'DOCENTE':
+    window.location.href = '/dashboard-docente';
+    break;
+  case 'ESTUDIANTE':
+    window.location.href = '/dashboard-estudiante';
+    break;
+  default:
+    throw new Error('Rol no válido');
+}
+
+      } catch (err) {
+        errorMessage.textContent = err.message;
+      }
+    });
+  </script>
+</body>
+</html>

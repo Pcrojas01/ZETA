@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Periodos Académicos - ZETA</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Gestión de Periodos Académicos</h1>
+    <a href="/dashboard_admin">Volver al Dashboard</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Registrar / Editar Periodo</h2>
+      <form id="periodForm">
+        <input type="hidden" id="periodId" name="periodId">
+        <div>
+          <label for="name">Nombre del periodo:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="startDate">Fecha de inicio:</label>
+          <input type="date" id="startDate" name="startDate" required>
+        </div>
+        <div>
+          <label for="endDate">Fecha de fin:</label>
+          <input type="date" id="endDate" name="endDate" required>
+        </div>
+        <button type="submit">Guardar</button>
+        <button type="button" id="cancelEdit" style="display:none;">Cancelar</button>
+      </form>
+      <div id="formMessage"></div>
+    </section>
+
+    <section>
+      <h2>Periodos Registrados</h2>
+      <table border="1" width="100%">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Fecha de inicio</th>
+            <th>Fecha de fin</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="periodsTableBody">
+          <!-- Periodos aquí -->
+        </tbody>
+      </table>
+      <div id="tableMessage"></div>
+    </section>
+  </main>
+
+  <script src="/public/js/periods.js"></script>
+</body>
+</html> 

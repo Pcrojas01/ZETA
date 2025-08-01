@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Materias - ZETA</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Gestión de Materias</h1>
+    <a href="/dashboard_admin">Volver al Dashboard</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Registrar / Editar Materia</h2>
+      <form id="subjectForm">
+        <input type="hidden" id="subjectId" name="subjectId">
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="code">Código:</label>
+          <input type="text" id="code" name="code" required>
+        </div>
+        <div>
+          <label for="teacherId">Docente:</label>
+          <select id="teacherId" name="teacherId" required>
+            <option value="">Seleccione un docente</option>
+          </select>
+        </div>
+        <button type="submit">Guardar</button>
+        <button type="button" id="cancelEdit" style="display:none;">Cancelar</button>
+      </form>
+      <div id="formMessage"></div>
+    </section>
+
+    <section>
+      <h2>Materias Registradas</h2>
+      <table border="1" width="100%">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Código</th>
+            <th>Docente</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="subjectsTableBody">
+          <!-- Materias aquí -->
+        </tbody>
+      </table>
+      <div id="tableMessage"></div>
+    </section>
+  </main>
+
+  <script src="/public/js/subjects.js"></script>
+</body>
+</html> 

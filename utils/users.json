@@ -1,0 +1,368 @@
+[
+  {
+    "name": "Admin Principal",
+    "email": "admin@gmail.com",
+    "password": "admin123",
+    "role": "ADMIN"
+  },
+  {
+    "name": "Hernán Mármol Esparza",
+    "email": "docente1@gmail.com",
+    "password": "docente1123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "Toribio Morán Roma",
+    "email": "docente2@gmail.com",
+    "password": "docente2123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "Ciriaco Peralta Araujo",
+    "email": "docente3@gmail.com",
+    "password": "docente3123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "Anabel Cándida Salom Borrás",
+    "email": "docente4@gmail.com",
+    "password": "docente4123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "Pastora Priscila Cuervo Anaya",
+    "email": "docente5@gmail.com",
+    "password": "docente5123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "Reyes Cuéllar Ripoll",
+    "email": "docente6@gmail.com",
+    "password": "docente6123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "Álvaro Camino Perea",
+    "email": "docente7@gmail.com",
+    "password": "docente7123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "Juliana Reina Martin",
+    "email": "docente8@gmail.com",
+    "password": "docente8123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "Ricardo Román Molins",
+    "email": "docente9@gmail.com",
+    "password": "docente9123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "Graciana Pou Estrada",
+    "email": "docente10@gmail.com",
+    "password": "docente10123",
+    "role": "DOCENTE"
+  },
+  {
+    "name": "César Morillo Santiago",
+    "email": "estudiante1@gmail.com",
+    "password": "estudiante1123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Aura Fortunata Lamas Riquelme",
+    "email": "estudiante2@gmail.com",
+    "password": "estudiante2123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Erasmo Barrios Miralles",
+    "email": "estudiante3@gmail.com",
+    "password": "estudiante3123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Nélida Lasa Roma",
+    "email": "estudiante4@gmail.com",
+    "password": "estudiante4123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Teo Alsina Cuesta",
+    "email": "estudiante5@gmail.com",
+    "password": "estudiante5123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Leticia Borrás Adadia",
+    "email": "estudiante6@gmail.com",
+    "password": "estudiante6123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Inés Herranz Donoso",
+    "email": "estudiante7@gmail.com",
+    "password": "estudiante7123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Encarna Carina Antúnez Corominas",
+    "email": "estudiante8@gmail.com",
+    "password": "estudiante8123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Roberta Sureda Tapia",
+    "email": "estudiante9@gmail.com",
+    "password": "estudiante9123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Blanca Prats Piña",
+    "email": "estudiante10@gmail.com",
+    "password": "estudiante10123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Eugenio Cantero Angulo",
+    "email": "estudiante11@gmail.com",
+    "password": "estudiante11123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Juan Pablo Prats Tirado",
+    "email": "estudiante12@gmail.com",
+    "password": "estudiante12123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Lalo Aznar",
+    "email": "estudiante13@gmail.com",
+    "password": "estudiante13123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Felipe Pinilla",
+    "email": "estudiante14@gmail.com",
+    "password": "estudiante14123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Reyes Soler Mas",
+    "email": "estudiante15@gmail.com",
+    "password": "estudiante15123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Guiomar Miralles Azcona",
+    "email": "estudiante16@gmail.com",
+    "password": "estudiante16123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Lilia Plana",
+    "email": "estudiante17@gmail.com",
+    "password": "estudiante17123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Nieves Coll-Zamorano",
+    "email": "estudiante18@gmail.com",
+    "password": "estudiante18123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Alcides Blasco-Vázquez",
+    "email": "estudiante19@gmail.com",
+    "password": "estudiante19123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Luciana Simó Rius",
+    "email": "estudiante20@gmail.com",
+    "password": "estudiante20123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Amancio Almazán Diez",
+    "email": "estudiante21@gmail.com",
+    "password": "estudiante21123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Clemente Castells Alberola",
+    "email": "estudiante22@gmail.com",
+    "password": "estudiante22123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Lina del Benito",
+    "email": "estudiante23@gmail.com",
+    "password": "estudiante23123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Marina Padilla Agustí",
+    "email": "estudiante24@gmail.com",
+    "password": "estudiante24123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Felisa Castell Talavera",
+    "email": "estudiante25@gmail.com",
+    "password": "estudiante25123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Ciriaco Armengol Daza",
+    "email": "estudiante26@gmail.com",
+    "password": "estudiante26123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Sebastián Alejo Ariza Elías",
+    "email": "estudiante27@gmail.com",
+    "password": "estudiante27123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Mario Casal",
+    "email": "estudiante28@gmail.com",
+    "password": "estudiante28123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Victor Manuel de Gómez",
+    "email": "estudiante29@gmail.com",
+    "password": "estudiante29123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Maristela Juan Escrivá",
+    "email": "estudiante30@gmail.com",
+    "password": "estudiante30123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Isidora Ramis Barroso",
+    "email": "estudiante31@gmail.com",
+    "password": "estudiante31123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Edelmira Lladó Campoy",
+    "email": "estudiante32@gmail.com",
+    "password": "estudiante32123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Abril Moles Valcárcel",
+    "email": "estudiante33@gmail.com",
+    "password": "estudiante33123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Humberto Romero",
+    "email": "estudiante34@gmail.com",
+    "password": "estudiante34123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Maximino Diego Rosselló",
+    "email": "estudiante35@gmail.com",
+    "password": "estudiante35123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Virginia Calatayud Rius",
+    "email": "estudiante36@gmail.com",
+    "password": "estudiante36123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Fernanda Bonilla",
+    "email": "estudiante37@gmail.com",
+    "password": "estudiante37123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Jesús Isaías Beltrán Aguado",
+    "email": "estudiante38@gmail.com",
+    "password": "estudiante38123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Juan Francisco de Peláez",
+    "email": "estudiante39@gmail.com",
+    "password": "estudiante39123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Albina Gutiérrez Roldán",
+    "email": "estudiante40@gmail.com",
+    "password": "estudiante40123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Clara Tejada Cobo",
+    "email": "estudiante41@gmail.com",
+    "password": "estudiante41123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Ricarda Franco",
+    "email": "estudiante42@gmail.com",
+    "password": "estudiante42123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Piedad Sevillano Tena",
+    "email": "estudiante43@gmail.com",
+    "password": "estudiante43123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Teresa Riquelme Mármol",
+    "email": "estudiante44@gmail.com",
+    "password": "estudiante44123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Gertrudis María Larrañaga Mena",
+    "email": "estudiante45@gmail.com",
+    "password": "estudiante45123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Aitor Vizcaíno Valenzuela",
+    "email": "estudiante46@gmail.com",
+    "password": "estudiante46123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Alba Pedro Sierra",
+    "email": "estudiante47@gmail.com",
+    "password": "estudiante47123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Almudena Ariza Sanabria",
+    "email": "estudiante48@gmail.com",
+    "password": "estudiante48123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Ainara Hierro Ferrer",
+    "email": "estudiante49@gmail.com",
+    "password": "estudiante49123",
+    "role": "ESTUDIANTE"
+  },
+  {
+    "name": "Bruno Avilés Viana",
+    "email": "estudiante50@gmail.com",
+    "password": "estudiante50123",
+    "role": "ESTUDIANTE"
+  }
+]
